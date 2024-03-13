@@ -5,7 +5,7 @@ package Curs2;
  * --numele claselor este UpperCamelCase Ex: ExempluVariabila
  * --nume metode si variabile este lowerCamelCase Ex: numeTester;
  * 
- * Bad practice in Java sa scriu clasa exemplu_clasa
+ * Bad practice in Java sa scriu clasa exemplu_clasa, acest mod se numeste snake si este folosit in Phyton
  * 
  */
 
