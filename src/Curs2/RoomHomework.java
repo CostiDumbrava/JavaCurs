@@ -15,7 +15,7 @@ public class RoomHomework {
 		
 		this.latime = latime;
 		this.lungime = lungime;
-		this.culoare = culoare;
+		RoomHomework.culoare = culoare;
 		
 	}
 		
