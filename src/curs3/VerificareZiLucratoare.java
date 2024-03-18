@@ -25,7 +25,8 @@ public class VerificareZiLucratoare {
 		askTheUserForANumber();
 		//daca ies din clasa, nu pot sa apelez fara obiect
 		
-		//
+		// && AND
+		// || OR
 		
 		if (zi>=1 && zi<=5) {System.out.println("Este zi lucratoare");
 		} else if (zi==6 || zi==7) {System.out.println("Este weekend"); 
