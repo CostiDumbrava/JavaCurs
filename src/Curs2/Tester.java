@@ -1,4 +1,4 @@
-package Curs2;
+package curs2;
 
 /*
  * Conventie naming Java:
