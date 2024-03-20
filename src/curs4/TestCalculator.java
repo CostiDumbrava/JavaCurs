@@ -6,7 +6,7 @@ public class TestCalculator {
 	
 		SimpleCalculator calc = new SimpleCalculator();
 		calc.calculeazaValori();
-		calc.printeazaValori();
+		//calc.printeazaValori();
 	}
 
 }
