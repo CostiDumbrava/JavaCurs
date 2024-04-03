@@ -52,7 +52,6 @@ public class RandomNumberGenerator {
 		
 		}
 	
-	
 	public void printArray() {
 		
 		for (int nr : numbers) {
