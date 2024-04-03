@@ -2,6 +2,8 @@ package curs7;
 
 import java.util.Arrays;
 
+//array cu o singura dimensiune
+
 public class ArrayExample {
 
 	public static void main(String[] args) {
