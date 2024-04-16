@@ -4,6 +4,7 @@ public class Angajat {
 
 	private String nume;
 	private String email;
+	
 	public String getNume() {
 		return nume;
 	}
