@@ -15,34 +15,13 @@ public class Product {
 	
 	
 	String nume;
-	int cantitate;
+	static int cantitate;
 	
-	
-	
-   public String getNume() {
-		return nume;
-	}
-
-	public void setNume(String nume) {
-		this.nume = nume;
-	}
-
-	public int getCantitate() {
-		return cantitate;
-	}
-
-	public void setCantitate(int cantitate) {
-		this.cantitate = cantitate;
-	}
-
-
-
-        //public int cantitateDisponibila() {
+    public int cantitateDisponibila() {
 		
-		//ProduseDefecte obj1 = new ProduseDefecte();
-		//ProduseExpirate obj2 = new ProduseExpirate();
+	return cantitate;
 		
-		//return cantitate - obj1.defect - obj2.expirat;
 		}
+}
 
 

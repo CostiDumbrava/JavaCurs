@@ -12,7 +12,6 @@ package curs9homework;
 
 public class Qualification extends Teacher {
 	
-	//.toLowerCase()
 	public void verify() {
 		
 		if ((experienceYears > 3) && (course.equals("java") && schedule.equals("afternoon")))  {

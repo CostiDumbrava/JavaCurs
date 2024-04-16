@@ -1,22 +1,21 @@
 package curs10homework;
 
 public class ProduseDefecte extends Product{
-	
+
 	int defect;
 	
-	public int getDefect() {
-		return defect;
-	}
-
-
-	public void setDefect(int defect) {
+	public ProduseDefecte(int defect, int cantitate) {
 		this.defect = defect;
+		this.cantitate = cantitate;
 	}
-
-
-	public int rezultat() {
+	
+	
+	@Override
+	
+	public int cantitateDisponibila() {
 		
-		return cantitate - defect; 
-	}
+		return cantitate - defect;
+			
+		}
 	
 }
