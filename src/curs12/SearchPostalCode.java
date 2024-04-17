@@ -8,14 +8,7 @@ import java.util.Scanner;
  * avem o functionalitate care cauta pe baza codului si printeaza orasul: 
  * daca codul nu exista arunc o exceptie: PostalCodeException
  * si intreb din nou utilizarorul pana primesc cod postal corect
- * 
- * 
  */
-
-
-
-
-
 
 public class SearchPostalCode {
 
@@ -24,16 +17,24 @@ public class SearchPostalCode {
 		Scanner scan = new Scanner(System.in);
 	
 	CoduriPostale cp = new CoduriPostale();
-	//System.out.println(cp.map);
 	
-	System.out.println("Introdu un cod postal: ");
-	int codPostal = scan.nextInt();
-	System.out.println(cp.gasesteOras(codPostal));
+	String oras = "";
 	
-	
-	
+	 while (oras.equals("")) {
 		
-
+		System.out.println("Introdu un cod postal: ");
+		int codPostal = scan.nextInt();
+				try {
+			oras =cp.gasesteOras(codPostal);
+			System.out.println(oras);
+		
+			
+		} catch(PostalCodeException e) {
+			System.out.println(e.getMessage());
+			
+		}
 	}
-
+	}
 }
+
+
