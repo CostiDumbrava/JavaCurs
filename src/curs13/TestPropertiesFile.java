@@ -6,7 +6,7 @@ public class TestPropertiesFile {
 	
 		PropertiesFileProcessor obj = new PropertiesFileProcessor();
 		
-		//obj.writePropertiesFile(); // am creat fisierul, il scoate din Java, pentru a l vedea dam refresh (F5) pe CursJava
+		obj.writePropertiesFile(); // am creat fisierul, il scoate din Java, pentru a l vedea dam refresh (F5) pe CursJava
 		
 		//daca vreau sa completez fisierul se face de regula manual, il deschid si scriu in continuare in el
 		
@@ -27,7 +27,7 @@ public class TestPropertiesFile {
 		
 		System.out.println("======================");
 		
-		obj.deleteFromPropertiesFile("browser");
+		obj.deleteFromPropertiesFile("browser"); // asa stergem o pereche 
 		obj.readPropertiesFile("browser");
 		
 	}

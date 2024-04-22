@@ -35,8 +35,6 @@ public class PropertiesFileProcessor { // implementeaza un map, adica perechi Ke
 			
 			//pereche K,V pt ca implementeaza un map, exista diferenta intre ce vreau sa scriu intr un map si intre un fisier properties
 			
-			propFile.isEmpty();
-			
 			propFile.setProperty("hostname", "server.com"); //toate obiectele sunt sub forma de String uri din fisierele Properties
 			propFile.setProperty("port", "1234"); 
 			propFile.setProperty("url", "example.com"); //get se foloseste ca sa citesti
@@ -54,7 +52,7 @@ public class PropertiesFileProcessor { // implementeaza un map, adica perechi Ke
 		
 	}
 
-	// citesc din fisier extern
+	// citesc din fisier 
 	
 	public void readPropertiesFile(String Key) { 
 		
