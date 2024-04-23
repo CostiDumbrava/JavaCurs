@@ -29,9 +29,13 @@ public class ArrayListExample2 {
 		
 		List<String> subLista = list.subList(0, 0); // asa creem o sublista mai mica dintr o lista mai mare
 		
-		list.subList(0, 5).get(3); // poti folosi clasa subList si ai toate metodele unei subliste
+		System.out.println(list.subList(0, 5).get(3)); // poti folosi clasa subList si ai toate metodele unei subliste
+		//Constanta
+		
 		list.subList(0, 5).clear(); //sterge toate elementele pana la 5
 		
+		System.out.println(list);
+		//[Arad, Oradea]
 	}
 
 }

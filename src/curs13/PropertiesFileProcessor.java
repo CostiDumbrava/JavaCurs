@@ -85,6 +85,7 @@ public class PropertiesFileProcessor { // implementeaza un map, adica perechi Ke
 		
 		try(FileInputStream input = new FileInputStream ("test.properties")) {
 			
+			propFile.load(input);
 			
 		}catch (IOException e) {
 			System.out.println("Nu am putut citi fisierul!");//il incarc
@@ -112,6 +113,7 @@ public class PropertiesFileProcessor { // implementeaza un map, adica perechi Ke
 		
 		try(FileInputStream input = new FileInputStream ("test.properties")) {
 			
+			propFile.load(input);
 			
 		}catch (IOException e) {
 			System.out.println("Nu am putut citi fisierul!");//il incarc
