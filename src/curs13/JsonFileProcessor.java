@@ -82,7 +82,7 @@ try(FileReader input = new FileReader("test.json")){ //am deschis canalul de com
 			try {
 				FileWriter output = new FileWriter("test.json");
 				output.write(jsonObj.toJSONString());
-				output.close();
+				output.close();//inchid canalul
 				
 			}catch (Exception e) {
 				e.printStackTrace();
@@ -110,7 +110,7 @@ public void deleteFromJsonFile(String key) {
 			
 			try {
 				FileWriter output = new FileWriter("test.json");
-				output.write(jsonObj.toJSONString()); //scriu pe canalu de output
+				output.write(jsonObj.toJSONString()); //scriu pe canalul de output
 				output.close();//inchid canalul
 				
 			}catch (Exception e) {
