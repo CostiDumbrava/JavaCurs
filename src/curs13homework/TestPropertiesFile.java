@@ -12,16 +12,21 @@ public class TestPropertiesFile {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Scrieti ce leguma doriti: ");
+		String cheie;
 		
-		String cheie = scan.next(); 
+		do {
+			System.out.println("Scrieti ce leguma doriti: ");
+			cheie = scan.next(); 
+		
 		
 	     if (obj.readPropertiesFile(cheie) != null) {
 	    	
 	    	 System.out.println("Leguma aleasa de tine are " + obj.readPropertiesFile(cheie) +" calorii.");
 	    	 	    	 
-	     }else System.out.println("Nu vindem aceasta leguma");
-		
+	     } else {
+	    	     System.out.println("Nu vindem aceasta leguma.");} 
+	     
+		 }while (obj.readPropertiesFile(cheie) == null);
 	}
 
 }
